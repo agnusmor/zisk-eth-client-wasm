@@ -25,12 +25,15 @@ async function run() {
                 worker.onmessage = function(e) {
                     const outputDiv = document.getElementById('output');
 
+                    // Clear the output div content
+                    outputDiv.innerHTML = '';
+
                     // Convert the block_hash response from the worker to a hexadecimal string
                     const block_hash = '0x' + Array.from(new Uint8Array(e.data.buffer))
                         .map(byte => byte.toString(16).padStart(2, '0')) // Convert each byte to a 2-digit hexadecimal number
                         .join(''); // Join the array of hexadecimal numbers into a single string
 
-                    // Print the block_hash in the output div
+                    // Add the block_hash in the output div
                     logOutput(block_hash);                       
                 };
             },

@@ -1,5 +1,5 @@
 {
-  "name": "www-zisk-eth-client",
+  "name": "zisk-eth-client-www",
   "version": "0.1.0",
   "description": "create an app to consume rust-generated wasm packages",
   "main": "index.js",
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/rustwasm/create-wasm-app#readme",
   "dependencies": {
-    "wasm-zisk-eth-client": "file:../pkg"
+    "zisk-eth-client-wasm": "file:../pkg"
   },  
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.0",

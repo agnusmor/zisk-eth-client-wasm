@@ -1,4 +1,4 @@
-const { execute_block } = require('./pkg/wasm_zisk_eth_client.js');
+const { execute_block } = require('./pkg/zisk_eth_client_wasm.js');
 const fs = require('node:fs');
 
 async function run() {

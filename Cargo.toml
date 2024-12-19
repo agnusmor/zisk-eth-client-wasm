@@ -1,5 +1,5 @@
 [package]
-name = "wasm-zisk-eth-client"
+name = "zisk-eth-client-wasm"
 version = "0.1.0"
 authors = ["agnusmor <agnusmor@gmail.com>"]
 edition = "2018"

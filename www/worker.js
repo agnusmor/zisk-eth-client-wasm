@@ -1,4 +1,4 @@
-import * as wasm from "wasm-zisk-eth-client";
+import * as wasm from "zisk-eth-client-wasm";
 
 self.onmessage = async function(e) {
     if (e.data && e.data.input) {

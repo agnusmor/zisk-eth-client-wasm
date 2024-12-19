@@ -1,4 +1,4 @@
-# Wasm Zisk Ethereum Client
+# Zisk Ethereum Client (WASM)
 
 ## Requirements
 
