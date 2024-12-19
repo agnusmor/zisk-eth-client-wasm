@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Block Executor</title>
+  </head>
+  <body>
+    <div id=wrapper>
+      <h1>Block Executor</h1>
+       <p>
+      <label for="file_picker">Select block input file:</label>
+      <input type="file" id="file_picker" name="file_picker">
+      </p>
+      <p>
+        <b>Open the JS console (F12) to see the execution log</b>
+      </p>   
+    </div>
+
+    <h3 style="display: inline; margin: 0;">Block hash:</h3>
+    <div id="output">
+    </div>
+
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser</noscript>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>
